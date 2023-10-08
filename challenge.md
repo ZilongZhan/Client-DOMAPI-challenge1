@@ -67,5 +67,5 @@ const photo = document.querySelector(".student-photo");
 
 name.textContent = studentData.name;
 age.textContent = studentData.age;
-photo.setAttribute("src", studentData.photoURL);
+photo.src = studentData.photoURL;
 ```
