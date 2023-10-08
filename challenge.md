@@ -37,8 +37,6 @@
 ```javaScript
 const heading = document.querySelector(".subtitle");
 heading.textContent = "The MERN stack";
-const article = document.querySelector(".info");
-article.appendChild(heading);
 heading.remove();
 ```
 
