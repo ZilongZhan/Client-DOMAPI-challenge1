@@ -68,4 +68,5 @@ const photo = document.querySelector(".student-photo");
 name.textContent = studentData.name;
 age.textContent = studentData.age;
 photo.src = studentData.photoURL;
+photo.alt = studentData.name;
 ```
